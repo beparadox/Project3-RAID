@@ -10,7 +10,5 @@ disk-array.o: disk-array.c
 disk.o: disk.c
 	gcc -Wall -g -c disk.c -o disk.o
 
-
-
 clean:
 	rm -f *.o raidsim
