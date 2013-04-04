@@ -1,5 +1,0 @@
-WRITE 1 1 abcd
-WRITE 2 1 efgh
-WRITE 4 1 wxyz
-WRITE 8 1 mnop
-WRITE 12 4 123
