@@ -35,8 +35,8 @@ foreach test ($list)
     set testStatus = $status
     
     # check for differences in output
-    diff ${tmpFile}.out ${resultDir}/${test}.out >& ${tmpFile}.out.diff
-    diff ${tmpFile}.err ${resultDir}/${test}.err >& ${tmpFile}.err.diff
+    diff -w ${tmpFile}.out ${resultDir}/${test}.out >& ${tmpFile}.out.diff
+    diff -w ${tmpFile}.err ${resultDir}/${test}.err >& ${tmpFile}.err.diff
 
     @ fail = 0
 
